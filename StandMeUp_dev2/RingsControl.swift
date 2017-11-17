@@ -14,6 +14,8 @@ class RingsControl: UIStackView {
     private var ringButtons = [UIButton]()
     public var rings = [HKActivityRingView]()
     
+    
+    
     //MARK: Initialization
     override init(frame: CGRect) {
         super.init(frame: frame)
