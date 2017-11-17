@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E461E1F01F9FE273003A6985 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E461E1EF1F9FE273003A6985 /* File.swift */; };
 		E461E1F21FA640F8003A6985 /* RingsControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E461E1F11FA640F8003A6985 /* RingsControl.swift */; };
 		E4D2320C1F74A6730085E7A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D2320B1F74A6730085E7A1 /* AppDelegate.swift */; };
 		E4D2320E1F74A6730085E7A1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D2320D1F74A6730085E7A1 /* FirstViewController.swift */; };
@@ -31,7 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E461E1EF1F9FE273003A6985 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		E461E1F11FA640F8003A6985 /* RingsControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingsControl.swift; sourceTree = "<group>"; };
 		E4D232081F74A6730085E7A1 /* StandMeUp_dev2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandMeUp_dev2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D2320B1F74A6730085E7A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				E461E1F11FA640F8003A6985 /* RingsControl.swift */,
-				E461E1EF1F9FE273003A6985 /* File.swift */,
 				E4D232311F74A7B60085E7A1 /* GSHealthKitManager.swift */,
 				E4D2320A1F74A6730085E7A1 /* StandMeUp_dev2 */,
 				E4D232211F74A6730085E7A1 /* StandMeUp_dev2Tests */,
@@ -232,7 +229,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E461E1F01F9FE273003A6985 /* File.swift in Sources */,
 				E461E1F21FA640F8003A6985 /* RingsControl.swift in Sources */,
 				E4D232101F74A6730085E7A1 /* SecondViewController.swift in Sources */,
 				E4D2320C1F74A6730085E7A1 /* AppDelegate.swift in Sources */,
