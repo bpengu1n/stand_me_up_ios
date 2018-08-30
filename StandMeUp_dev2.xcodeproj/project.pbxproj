@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8836BCD4F8F0EAF99C9DA157 /* Pods_StandMeUp_dev2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9088501BE6B82AFAACBF3803 /* Pods_StandMeUp_dev2.framework */; };
+		8A06093B7E80AB389148E4E3 /* Pods_StandMeUp_dev2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3983FC78C8CC511F03EBFDA /* Pods_StandMeUp_dev2Tests.framework */; };
+		E420B0881FC0A2E500FA5B87 /* HourButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E420B0871FC0A2E500FA5B87 /* HourButton.swift */; };
 		E461E1F21FA640F8003A6985 /* RingsControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E461E1F11FA640F8003A6985 /* RingsControl.swift */; };
 		E4D2320C1F74A6730085E7A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D2320B1F74A6730085E7A1 /* AppDelegate.swift */; };
 		E4D2320E1F74A6730085E7A1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D2320D1F74A6730085E7A1 /* FirstViewController.swift */; };
@@ -30,6 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05311F9A7FE8DAAE379FE83C /* Pods-StandMeUp_dev2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandMeUp_dev2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StandMeUp_dev2Tests/Pods-StandMeUp_dev2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9088501BE6B82AFAACBF3803 /* Pods_StandMeUp_dev2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StandMeUp_dev2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3983FC78C8CC511F03EBFDA /* Pods_StandMeUp_dev2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StandMeUp_dev2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70CB404B39D01F617023157 /* Pods-StandMeUp_dev2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandMeUp_dev2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StandMeUp_dev2Tests/Pods-StandMeUp_dev2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E21BA6CB9F0C4B855750054C /* Pods-StandMeUp_dev2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandMeUp_dev2.release.xcconfig"; path = "Pods/Target Support Files/Pods-StandMeUp_dev2/Pods-StandMeUp_dev2.release.xcconfig"; sourceTree = "<group>"; };
+		E420B0871FC0A2E500FA5B87 /* HourButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourButton.swift; sourceTree = "<group>"; };
 		E461E1F11FA640F8003A6985 /* RingsControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingsControl.swift; sourceTree = "<group>"; };
 		E4D232081F74A6730085E7A1 /* StandMeUp_dev2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandMeUp_dev2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D2320B1F74A6730085E7A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +54,7 @@
 		E4D2322D1F74A6860085E7A1 /* StandMeUp_dev2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StandMeUp_dev2.entitlements; sourceTree = "<group>"; };
 		E4D2322F1F74A6860085E7A1 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		E4D232311F74A7B60085E7A1 /* GSHealthKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSHealthKitManager.swift; sourceTree = "<group>"; };
+		F84A7B6089610C7AC91CED9A /* Pods-StandMeUp_dev2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandMeUp_dev2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StandMeUp_dev2/Pods-StandMeUp_dev2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4D232301F74A6860085E7A1 /* HealthKit.framework in Frameworks */,
+				8836BCD4F8F0EAF99C9DA157 /* Pods_StandMeUp_dev2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,21 +71,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A06093B7E80AB389148E4E3 /* Pods_StandMeUp_dev2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08727923F3FC1AA56AF771C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F84A7B6089610C7AC91CED9A /* Pods-StandMeUp_dev2.debug.xcconfig */,
+				E21BA6CB9F0C4B855750054C /* Pods-StandMeUp_dev2.release.xcconfig */,
+				05311F9A7FE8DAAE379FE83C /* Pods-StandMeUp_dev2Tests.debug.xcconfig */,
+				D70CB404B39D01F617023157 /* Pods-StandMeUp_dev2Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E420B0891FC0A31F00FA5B87 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				E420B0871FC0A2E500FA5B87 /* HourButton.swift */,
+				E461E1F11FA640F8003A6985 /* RingsControl.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
 		E4D231FF1F74A6730085E7A1 = {
 			isa = PBXGroup;
 			children = (
-				E461E1F11FA640F8003A6985 /* RingsControl.swift */,
+				E420B0891FC0A31F00FA5B87 /* Controls */,
 				E4D232311F74A7B60085E7A1 /* GSHealthKitManager.swift */,
 				E4D2320A1F74A6730085E7A1 /* StandMeUp_dev2 */,
 				E4D232211F74A6730085E7A1 /* StandMeUp_dev2Tests */,
 				E4D232091F74A6730085E7A1 /* Products */,
 				E4D2322E1F74A6860085E7A1 /* Frameworks */,
+				08727923F3FC1AA56AF771C5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				E4D2322F1F74A6860085E7A1 /* HealthKit.framework */,
+				9088501BE6B82AFAACBF3803 /* Pods_StandMeUp_dev2.framework */,
+				A3983FC78C8CC511F03EBFDA /* Pods_StandMeUp_dev2Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4D232271F74A6730085E7A1 /* Build configuration list for PBXNativeTarget "StandMeUp_dev2" */;
 			buildPhases = (
+				3A4060533E11860C5D3383CD /* [CP] Check Pods Manifest.lock */,
 				E4D232041F74A6730085E7A1 /* Sources */,
 				E4D232051F74A6730085E7A1 /* Frameworks */,
 				E4D232061F74A6730085E7A1 /* Resources */,
+				71A6FE91F85380AB55172E15 /* [CP] Embed Pods Frameworks */,
+				6A35C178A0FE91849480FE4A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4D2322A1F74A6730085E7A1 /* Build configuration list for PBXNativeTarget "StandMeUp_dev2Tests" */;
 			buildPhases = (
+				902105B39A4D01C5470C76E2 /* [CP] Check Pods Manifest.lock */,
 				E4D2321A1F74A6730085E7A1 /* Sources */,
 				E4D2321B1F74A6730085E7A1 /* Frameworks */,
 				E4D2321C1F74A6730085E7A1 /* Resources */,
+				10BA75525941A8CCD05E3B53 /* [CP] Embed Pods Frameworks */,
+				73C991B6EA6C3008A85B5402 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,12 +205,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Benjamin Yunker";
 				TargetAttributes = {
 					E4D232071F74A6730085E7A1 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 3T7F5UM489;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.HealthKit = {
@@ -180,6 +222,7 @@
 					E4D2321D1F74A6730085E7A1 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 3T7F5UM489;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 						TestTargetID = E4D232071F74A6730085E7A1;
 					};
@@ -224,6 +267,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10BA75525941A8CCD05E3B53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StandMeUp_dev2Tests/Pods-StandMeUp_dev2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A4060533E11860C5D3383CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A35C178A0FE91849480FE4A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StandMeUp_dev2/Pods-StandMeUp_dev2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71A6FE91F85380AB55172E15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StandMeUp_dev2/Pods-StandMeUp_dev2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73C991B6EA6C3008A85B5402 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StandMeUp_dev2Tests/Pods-StandMeUp_dev2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		902105B39A4D01C5470C76E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4D232041F74A6730085E7A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -232,6 +368,7 @@
 				E461E1F21FA640F8003A6985 /* RingsControl.swift in Sources */,
 				E4D232101F74A6730085E7A1 /* SecondViewController.swift in Sources */,
 				E4D2320C1F74A6730085E7A1 /* AppDelegate.swift in Sources */,
+				E420B0881FC0A2E500FA5B87 /* HourButton.swift in Sources */,
 				E4D232321F74A7B60085E7A1 /* GSHealthKitManager.swift in Sources */,
 				E4D2320E1F74A6730085E7A1 /* FirstViewController.swift in Sources */,
 			);
@@ -285,7 +422,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -293,7 +432,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -316,12 +459,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -335,7 +479,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -343,7 +489,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -360,16 +510,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		E4D232281F74A6730085E7A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F84A7B6089610C7AC91CED9A /* Pods-StandMeUp_dev2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = StandMeUp_dev2/StandMeUp_dev2.entitlements;
@@ -378,12 +530,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pengdc.StandMeUp-dev2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		E4D232291F74A6730085E7A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E21BA6CB9F0C4B855750054C /* Pods-StandMeUp_dev2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = StandMeUp_dev2/StandMeUp_dev2.entitlements;
@@ -392,12 +546,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pengdc.StandMeUp-dev2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		E4D2322B1F74A6730085E7A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05311F9A7FE8DAAE379FE83C /* Pods-StandMeUp_dev2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -406,13 +562,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pengdc.StandMeUp-dev2Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StandMeUp_dev2.app/StandMeUp_dev2";
 			};
 			name = Debug;
 		};
 		E4D2322C1F74A6730085E7A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D70CB404B39D01F617023157 /* Pods-StandMeUp_dev2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -421,7 +579,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pengdc.StandMeUp-dev2Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StandMeUp_dev2.app/StandMeUp_dev2";
 			};
 			name = Release;
