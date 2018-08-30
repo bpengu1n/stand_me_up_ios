@@ -1,0 +1,15 @@
+PODS:
+  - BorderedView (0.1.0)
+  - UICircularProgressRing (1.7.4)
+
+DEPENDENCIES:
+  - BorderedView
+  - UICircularProgressRing
+
+SPEC CHECKSUMS:
+  BorderedView: d5a4373310d6c7c0fa922eade7ca13672541dad8
+  UICircularProgressRing: 5aca63423d913dc967661370e94e2af0770dd9cd
+
+PODFILE CHECKSUM: b15bd258eaca8a17a40a3fca1c860ccad8382b56
+
+COCOAPODS: 1.1.1

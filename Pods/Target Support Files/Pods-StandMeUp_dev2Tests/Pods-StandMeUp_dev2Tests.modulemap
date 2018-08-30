@@ -1,0 +1,6 @@
+framework module Pods_StandMeUp_dev2Tests {
+  umbrella header "Pods-StandMeUp_dev2Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
