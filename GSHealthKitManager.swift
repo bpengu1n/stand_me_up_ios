@@ -32,6 +32,7 @@ class GSHealthKitManager: NSObject {
         let readTypes: Set<HKObjectType> = [HKQuantityType.quantityType(forIdentifier: HKQuantityTypeIdentifier.distanceWalkingRunning)!,
                                             HKWorkoutType.workoutType(),
                                             HKObjectType.activitySummaryType(),
+                                            HKActivitySummaryType.activitySummaryType(),
                                             HKCategoryType.categoryType(forIdentifier: HKCategoryTypeIdentifier.appleStandHour)!]
         
         guard HKHealthStore.isHealthDataAvailable() else {
@@ -79,7 +80,7 @@ class GSHealthKitManager: NSObject {
             
             guard let summary = summaries?.first else { return }
             
-            /*
+            
             let energyUnit = HKUnit.kilocalorie()
             let standUnit    = HKUnit.count()
             let exerciseUnit = HKUnit.second()
@@ -87,7 +88,7 @@ class GSHealthKitManager: NSObject {
             let energy   = summary.activeEnergyBurned.doubleValue(for: energyUnit)
             let stand    = summary.appleStandHours.doubleValue(for: standUnit)
             let exercise = summary.appleExerciseTime.doubleValue(for: exerciseUnit)
-            
+            /*
             let energyGoal   = summary.activeEnergyBurnedGoal.doubleValue(for: energyUnit)
             let standGoal    = summary.appleStandHoursGoal.doubleValue(for: standUnit)
             let exerciseGoal = summary.appleExerciseTimeGoal.doubleValue(for: exerciseUnit)
@@ -165,17 +166,27 @@ class GSHealthKitManager: NSObject {
             if let result = results {
                 for item in result {
                     print("Stood at: \(item.startDate)")
-                    let hr = NSCalendar.current.component(Calendar.Component.hour, from: item.startDate)
-                    cells[hr].backgroundColor = #colorLiteral(red: 0.2745098174, green: 0.4862745106, blue: 0.1411764771, alpha: 1)
+                    
+                    DispatchQueue.main.async {
+                        let hr = NSCalendar.current.component(Calendar.Component.hour, from: item.startDate)
+                        //cells[hr].backgroundColor = UIColor.green
+                        //cells[hr].setTitle("", for: UIControlState.normal)
+                        //cells[hr].setTitleColor(UIColor.black, for: UIControlState.normal)
+                        // cells[hr].setImage(#imageLiteral(resourceName: "Check Single"), for: UIControlState.normal)
+                        //cells[hr].setBackgroundImage(#imageLiteral(resourceName: "Check Single"), for: UIControlState.normal)
+                        cells[hr].alpha = 1.0
+                        cells[hr].isUserInteractionEnabled = false
+                        //cells[hr].isEnabled = false
+                    }
+                    
                 }
- //               print(self.workOutSamples)
             }
         }
         healthStore.execute(query)
-        /*
+        
         let standSample: HKCategorySample = HKCategorySample.init(type: appleStandHourType, value: HKCategoryValueAppleStandHour.stood.rawValue, start: begin!, end: Date())
         print("Stood Last six hours: '\(standSample.value)'")
- */
+ 
         
     }
     

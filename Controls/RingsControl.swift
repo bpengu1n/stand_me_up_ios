@@ -19,20 +19,20 @@ class RingsControl: UIStackView {
     //MARK: Initialization
     override init(frame: CGRect) {
         super.init(frame: frame)
-        setupRings()
+        //setupRings()
     }
     
     required init(coder: NSCoder) {
         super.init(coder: coder)
-        setupRings()
+        //setupRings()
     }
 
     //MARK: Private Methods
+    /*
     private func setupRings() {
         for _ in (0..<7) {
             let button = UIButton()
             button.backgroundColor = UIColor.black
-            
             
             button.translatesAutoresizingMaskIntoConstraints = false
             
@@ -50,4 +50,6 @@ class RingsControl: UIStackView {
         }
 
     }
+    */
+    
 }
